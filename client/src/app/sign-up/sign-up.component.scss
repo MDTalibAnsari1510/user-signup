@@ -1,0 +1,29 @@
+p {
+    font-family: Lato;
+}
+
+// #root {
+//     padding: 30px;
+// }
+
+// .register-form {
+//     max-width: 350px;
+//     margin: auto;
+// }
+
+
+* {
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+.container {
+    height: 100vh;
+    width: 100%;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    // background-image: radial-gradient(circle farthest-corner at 10% 20%,
+    //         rgb(170, 163, 166) 0%,
+    //         rgb(51, 48, 46) 90%);
+}
