@@ -1,4 +1,4 @@
-# Angular Bootstrap Signup Project
+# Angular Signup Project
 
 This project is a simple Angular application that includes a signup form with Bootstrap styling.
 
@@ -8,6 +8,10 @@ This project is a simple Angular application that includes a signup form with Bo
 
 git clone https://github.com/MDTalibAnsari1510/user-signup.git
 
+
+2. Navigate to the client directory:
+
+cd client
 
 3. Install dependencies:
 
