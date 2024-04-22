@@ -1,24 +1,28 @@
-# Angular Bootstrap Welcome Screen Project
+# Angular Bootstrap Signup Project
 
-This project is a simple Angular application that displays a beautiful welcome screen with user greetings using Bootstrap for styling.
+This project is a simple Angular application that includes a signup form with Bootstrap styling.
+
+## Setup
+
+1. Clone the repository:
+
+git clone https://github.com/MDTalibAnsari1510/user-signup.git
+
+
+3. Install dependencies:
+
+npm install
+
+
+4. Run the application:
+npm start | ng serve
+
+
+Navigate to `http://localhost:4200/` in your browser.
 
 ## Features
 
-- **Welcome Screen**: Displays a greeting message along with the user's name.
-- **Reactive Form**: Implements a signup form with validation for username, email, and phone number fields.
-- **Bootstrap Styling**: Utilizes Bootstrap 5 for styling to make the welcome screen and form layout beautiful and responsive.
-
-## Setup Instructions
-
-Follow these steps to set up and run the project locally:
-
-### Prerequisites
-
-- Node.js and npm should be installed on your machine.
-
-### Installation
-
-1. Clone the repository to your local machine:
-
-   ```bash
-   git clone <repository-url>
+- **Signup Form**: Includes fields for username, email, and phone number.
+- **Bootstrap Styling**: Utilizes Bootstrap 5 for styling and layout.
+- **Reactive Form**: Implements Angular reactive forms for form handling and validation.
+- **Welcome Screen**: Displays a welcome message with the user's name.
