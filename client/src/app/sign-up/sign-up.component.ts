@@ -12,12 +12,9 @@ import {  Router } from '@angular/router';
 })
 export class SignUpComponent implements OnInit {
   form: FormGroup = new FormGroup({
-    fullname: new FormControl(''),
     username: new FormControl(''),
     email: new FormControl(''),
-    password: new FormControl(''),
-    confirmPassword: new FormControl(''),
-    acceptTerms: new FormControl(false),
+    phone: new FormControl(''),
   });
   submitted = false;
 
@@ -37,8 +34,8 @@ export class SignUpComponent implements OnInit {
         email: ['', [Validators.required, Validators.email]],
         phone: ['', [
           Validators.required,
-          Validators.maxLength(10),
-          Validators.minLength(10),
+          Validators.max(10),
+          Validators.min(10),
           Validators.pattern('^[0-9]+$')
         ]]
       },

@@ -41,10 +41,10 @@
                 @if (f['phone'].errors['required']) {
                 <div>Phone is required</div>
                 }
-                @if (f['phone'].errors['minlength']) {
+                @if (f['phone'].errors['min']) {
                 <div>Phone no. should be minimum 10 digit</div>
                 }
-                @if (f['phone'].errors['maxlength']) {
+                @if (f['phone'].errors['max']) {
                 <div>Phone no. should be maximum 10 digit</div>
                 }
                 @if (f['phone'].errors['pattern']) {
