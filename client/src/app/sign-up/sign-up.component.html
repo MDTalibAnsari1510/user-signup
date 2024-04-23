@@ -34,7 +34,7 @@
 
         <div class="form-group">
             <label>Phone No.</label>
-            <input type="tel" placeholder="XXXXXXXXXX" [maxlength]="10" formControlName="phone" class="form-control"
+            <input type="tel" placeholder="XXXXXXXXXX" [maxlength]="10" pattern="[0-9]*" formControlName="phone" class="form-control"
                 [ngClass]="{ 'is-invalid': submitted && f['phone'].errors }" />
             @if (submitted && f['phone'].errors) {
             <div class="invalid-feedback">
@@ -48,7 +48,7 @@
                 <div>Phone no. should be maximum 10 digit</div>
                 }
                 @if (f['phone'].errors['pattern']) {
-                <div>Phone is invalid</div>
+                <div>Phone number must contain only digits</div>
                 }
             </div>
             }
