@@ -34,7 +34,7 @@
 
         <div class="form-group">
             <label>Phone No.</label>
-            <input type="number" placeholder="XXXXXXXXXX" [maxLength]="10" formControlName="phone" class="form-control"
+            <input type="tel" placeholder="XXXXXXXXXX" [maxlength]="10" formControlName="phone" class="form-control"
                 [ngClass]="{ 'is-invalid': submitted && f['phone'].errors }" />
             @if (submitted && f['phone'].errors) {
             <div class="invalid-feedback">
